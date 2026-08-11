@@ -1,5 +1,3 @@
-package MiniBank;
-
 public class Customer {
 
     private String name;

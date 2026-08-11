@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class Driver1 
-{
+public class Driver4 
+{   
     public static void main(String[] args) 
     {
-
         String[] logs = 
         {
             "10:05 alice Hello there",
@@ -17,7 +16,6 @@ public class Driver1
 
         System.out.print("Enter keyword: ");
         String keyword = sc.nextLine();
-
         System.out.println(ChatFilter.filterMessages(logs, keyword));
 
         sc.close();

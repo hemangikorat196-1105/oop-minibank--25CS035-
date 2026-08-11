@@ -1,5 +1,3 @@
-package MiniBank;
-
 public class Account {
 
     private final String accountNumber;

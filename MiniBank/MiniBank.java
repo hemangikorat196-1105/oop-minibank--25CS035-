@@ -1,5 +1,3 @@
-package MiniBank;
-
 import java.util.Scanner;
 
 record BankInfo(String name, String branch) {}
