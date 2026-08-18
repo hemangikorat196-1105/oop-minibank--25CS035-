@@ -5,11 +5,11 @@ public class Driver3
 
         String[] passwords = 
         {
-                "abc",
-                "Password",
-                "Pass123",
-                "Abcd1234!",
-                "Hello@123"
+            "abc",
+            "Password",
+            "Pass123",
+            "Abcd1234!",
+            "Hello@123"
         };
 
         for (String pw : passwords) 

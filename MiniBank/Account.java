@@ -11,7 +11,6 @@ public class Account {
         return String.format("AC%04d", accountCounter++);
     }
 
-    // Constructor with opening balance
     public Account(String ownerName, long openingBalance) {
         this.accountNumber = generateAccountNumber();
         this.ownerName = ownerName;
@@ -19,19 +18,16 @@ public class Account {
         this.active = true;
     }
 
-    // Constructor with zero balance
     public Account(String ownerName) {
         this(ownerName, 0);
     }
 
-    // Deposit method
     public void deposit(long amount) {
         if (amount > 0) {
             balance += amount;
         }
     }
 
-    // Withdraw method
     public boolean withdraw(long amount) {
         if (amount > 0 && balance >= amount) {
             balance -= amount;
@@ -40,7 +36,6 @@ public class Account {
         return false;
     }
 
-    // Getter methods
     public String getAccountNumber() {
         return accountNumber;
     }
