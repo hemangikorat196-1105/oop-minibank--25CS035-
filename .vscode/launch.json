@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Notificationsenders",
+      "request": "launch",
+      "mainClass": "Notificationsenders",
+      "projectName": "JAVA_fb7d96d6"
+    },
+    {
+      "type": "java",
       "name": "Driver4",
       "request": "launch",
       "mainClass": "Driver4",

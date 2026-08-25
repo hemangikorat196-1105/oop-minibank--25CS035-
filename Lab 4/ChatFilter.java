@@ -22,7 +22,7 @@ public class ChatFilter
             {
                 count++;
                 report.append(time)
-                      .append(" ")
+                      .append("")
                       .append(user)
                       .append(": ")
                       .append(message)

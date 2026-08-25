@@ -22,6 +22,7 @@ class FullTime extends Employee
         super(name, id);
         this.salary = salary;
     }
+    @Override
     double monthlySalary() 
     {
         return salary;
@@ -38,6 +39,7 @@ class PartTime extends Employee
         this.hours = hours;
         this.rate = rate;
     }
+    @Override
     double monthlySalary() 
     {
         return hours * rate;
@@ -52,6 +54,7 @@ class Intern extends Employee
         super(name, id);
         this.stipend = stipend;
     }
+    @Override
     double monthlySalary() 
     {
         return stipend;

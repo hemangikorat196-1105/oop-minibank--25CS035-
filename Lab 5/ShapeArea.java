@@ -10,6 +10,7 @@ class Circle extends Shape
     {
         this.radius = radius;
     }
+    @Override
     double area() 
     {
         return Math.PI * radius * radius;
@@ -24,6 +25,7 @@ class Rectangle extends Shape
         this.length = length;
         this.width = width;
     }
+    @Override
     double area() 
     {
         return length * width;
@@ -37,6 +39,7 @@ class Triangle extends Shape
         this.base = base;
         this.height = height;
     }
+    @Override
     double area() 
     {
         return 0.5 * base * height;
