@@ -13,14 +13,14 @@ public class TollBooth {
         int truckCount = 0;
 
         while (true) {
-            System.out.print("Enter vehicle number (or done to stop): ");
+            System.out.println("Enter vehicle number (or done to stop): ");
             String number = sc.next();
 
             if (number.equalsIgnoreCase("done")) {
                 break;
             }
 
-            System.out.print("Enter vehicle type (bike/car/truck): ");
+            System.out.println("Enter vehicle type (bike/car/truck): ");
             String type = sc.next().toLowerCase();
 
             Vehicle vehicle = new Vehicle(number, type);

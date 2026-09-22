@@ -21,7 +21,7 @@ public class Card {
         if (!(obj instanceof Card))
             return false;
 
-        Card c = (Card) obj;
+        Card c = (Card) obj;//down casting 
         return rank.equals(c.rank) && suit.equals(c.suit);
     }
 
