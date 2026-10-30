@@ -1,0 +1,3 @@
+INFO Request received
+ERROR Server error
+INFO Request completed

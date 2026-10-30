@@ -1,0 +1,4 @@
+INFO User logged in
+ERROR Database connection failed
+INFO Data loaded
+ERROR File not found
