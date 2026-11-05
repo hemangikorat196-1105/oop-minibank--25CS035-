@@ -1,2 +1,7 @@
-
-*.class
+target/
+out/
+data/
+logs/
+reports/
+*.dat
+*.log

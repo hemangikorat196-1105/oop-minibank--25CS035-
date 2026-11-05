@@ -1,3 +1,0 @@
-Login successful
-Deposit failed
-Account created
